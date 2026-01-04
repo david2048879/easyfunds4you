@@ -1,0 +1,615 @@
+/* ========================================
+   RESPONSIVE FIXES FOR PURE MOBILE OPTIMIZATION
+   ======================================== */
+
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+  /* Base responsive adjustments */
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* Tablet & Small Desktop */
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  /* Header fixes */
+  .header-area .main-header {
+    padding: 15px 15px !important;
+  }
+
+  /* Section spacing fixes */
+  .section-padding {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
+
+  /* Remove unnecessary padding/margins */
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Hero section */
+  .slider-area .single-slider .slider-cap-wrapper .hero__caption {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  /* Footer fixes */
+  .footer-area .footer-pera p {
+    padding-right: 0 !important;
+    margin-bottom: 25px !important;
+  }
+
+  /* Team section */
+  .team-area .single-team {
+    margin-bottom: 20px !important;
+  }
+
+  /* Blog captions padding */
+  .home-blog-area .single-blogs .blog-captions {
+    padding: 20px 0 !important;
+  }
+}
+
+ 
+/* Small Tablet / Large Mobile :576px to 767px. */
+@media (min-width: 576px) and (max-width: 767px) {
+  .container {
+    width: 100% !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+
+  /* Fix horizontal overflow */
+  body, html {
+    overflow-x: hidden !important;
+  }
+
+  /* Header responsive */
+  .header-area .main-header {
+    padding: 12px 12px !important;
+  }
+
+  .header-area .main-header .logo a img {
+    width: 80px !important;
+  }
+
+  /* Hero section */
+  .slider-area .single-slider .slider-cap-wrapper {
+    flex-direction: column !important;
+  }
+
+  .slider-area .single-slider .slider-cap-wrapper .hero__caption {
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 30px !important;
+  }
+
+  .slider-area .single-slider .slider-cap-wrapper .hero__caption h1 {
+    font-size: 24px !important;
+    margin-bottom: 15px !important;
+  }
+
+  .slider-area .single-slider .slider-cap-wrapper .hero__caption p {
+    font-size: 14px !important;
+    margin-bottom: 15px !important;
+  }
+
+  /* Section padding */
+  .section-padding, .section-padding2, .section-padding3 {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+
+  /* Services area */
+  .services-area .single-cat {
+    padding: 35px 15px !important;
+    margin-bottom: 15px !important;
+  }
+
+  /* About section */
+  .about-low-area .about-caption {
+    margin-bottom: 30px !important;
+  }
+
+  .about-low-area .about-caption p {
+    padding-right: 0 !important;
+    margin-bottom: 20px !important;
+    font-size: 14px !important;
+  }
+
+  /* Team spacing */
+  .team-area {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+
+  .team-area .single-team {
+    margin-bottom: 20px !important;
+  }
+
+  .team-area .single-team .team-caption h3 a {
+    font-size: 18px !important;
+  }
+
+  /* Blog section */
+  .home-blog-area {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+
+  .home-blog-area .single-blogs .blog-captions {
+    padding: 20px 0 !important;
+  }
+
+  .home-blog-area .single-blogs .blog-captions h2 {
+    font-size: 18px !important;
+  }
+
+  /* Footer responsive */
+  .footer-area .footer-logo {
+    margin-bottom: 20px !important;
+  }
+
+  .footer-area .footer-tittle {
+    margin-bottom: 20px !important;
+  }
+
+  /* Application form */
+  .application-area form.search-box {
+    flex-direction: column !important;
+  }
+
+  .application-area form.search-box .select-form,
+  .application-area form.search-box .input-form,
+  .application-area form.search-box .search-form {
+    width: 100% !important;
+    margin-bottom: 12px !important;
+  }
+
+  /* Support section */
+  .support-company-area .right-caption {
+    right: 0 !important;
+  }
+
+  .support-company-area .right-caption .support-caption p {
+    padding-right: 0 !important;
+    margin-bottom: 20px !important;
+  }
+}
+
+ 
+/* Small mobile :320px to 575px. */
+@media (max-width: 575px) {
+  /* Core fix: prevent horizontal overflow */
+  * {
+    max-width: 100% !important;
+  }
+
+  html, body {
+    width: 100% !important;
+    overflow-x: hidden !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .container, .container-fluid {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  /* -------- HEADER -------- */
+  .header-area {
+    position: relative;
+  }
+
+  .header-area .main-header {
+    padding: 10px 10px !important;
+  }
+
+  .header-area .main-header .logo a img {
+    width: 70px !important;
+  }
+
+  .header-area .main-header .header-right-btn {
+    display: none !important;
+  }
+
+  /* -------- SLIDER/HERO -------- */
+  .slider-area {
+    padding-top: 60px !important;
+  }
+
+  .slider-area .single-slider .slider-cap-wrapper {
+    flex-direction: column !important;
+    padding: 0 !important;
+  }
+
+  .slider-area .single-slider .slider-cap-wrapper .hero__caption {
+    width: 100% !important;
+    padding: 0 !important;
+    padding-bottom: 60px !important;
+    overflow: visible !important;
+  }
+
+  .slider-area .single-slider .slider-cap-wrapper .hero__caption h1 {
+    font-size: 20px !important;
+    margin-bottom: 10px !important;
+    line-height: 1.4 !important;
+  }
+
+  .slider-area .single-slider .slider-cap-wrapper .hero__caption p {
+    font-size: 13px !important;
+    margin-bottom: 10px !important;
+    padding-right: 0 !important;
+  }
+
+  .slider-area .single-slider .slider-cap-wrapper .hero__caption .btn {
+    font-size: 12px !important;
+    padding: 12px 20px !important;
+  }
+
+  /* -------- SLIDER FOOTER -------- */
+  .slider-footer {
+    margin-left: 0 !important;
+    padding: 0 10px !important;
+  }
+
+  .slider-footer .footer-wrapper {
+    flex-direction: column !important;
+  }
+
+  .slider-footer .footer-wrapper .single-caption {
+    width: 100% !important;
+    padding: 10px 0 !important;
+    display: block !important;
+  }
+
+  /* -------- SECTION PADDING -------- */
+  .section-padding, 
+  .section-padding2, 
+  .section-padding3, 
+  .section-padding30,
+  .testimonial-padding,
+  .footer-padding {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+
+  /* -------- SECTION TITLES -------- */
+  .section-tittle {
+    margin-bottom: 25px !important;
+  }
+
+  .section-tittle h2 {
+    font-size: 22px !important;
+    line-height: 1.3 !important;
+  }
+
+  .section-tittle span {
+    font-size: 13px !important;
+    margin-bottom: 10px !important;
+  }
+
+  /* -------- ABOUT SECTION -------- */
+  .about-low-area .about-caption {
+    margin-bottom: 20px !important;
+  }
+
+  .about-low-area .about-caption p {
+    padding-right: 0 !important;
+    margin-bottom: 15px !important;
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+  }
+
+  .about-low-area .about-caption .btn {
+    font-size: 12px !important;
+    padding: 10px 18px !important;
+  }
+
+  /* -------- SERVICES SECTION -------- */
+  .services-area {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+
+  .services-area .single-cat {
+    padding: 25px 12px !important;
+    margin-bottom: 12px !important;
+  }
+
+  .services-area .single-cat .cat-icon span {
+    font-size: 40px !important;
+    margin-bottom: 15px !important;
+  }
+
+  .services-area .single-cat .cat-cap h5 > a {
+    font-size: 16px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .services-area .single-cat .cat-cap p {
+    font-size: 13px !important;
+    margin-bottom: 15px !important;
+  }
+
+  /* -------- SUPPORT/COMPANY SECTION -------- */
+  .support-company-area .support-location-img {
+    margin-bottom: 20px !important;
+  }
+
+  .support-company-area .support-location-img::before {
+    display: none !important;
+  }
+
+  .support-company-area .right-caption {
+    right: 0 !important;
+  }
+
+  .support-company-area .right-caption .support-caption p {
+    padding-right: 0 !important;
+    margin-bottom: 15px !important;
+    font-size: 14px !important;
+  }
+
+  .select-suport-items {
+    margin-bottom: 20px !important;
+  }
+
+  .select-suport-items .single-items {
+    font-size: 14px !important;
+    margin-bottom: 10px !important;
+  }
+
+  /* -------- APPLICATION FORM -------- */
+  .application-area {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+
+  .application-area form.search-box {
+    flex-direction: column !important;
+    gap: 0 !important;
+  }
+
+  .application-area form.search-box .select-form,
+  .application-area form.search-box .input-form,
+  .application-area form.search-box .search-form {
+    width: 100% !important;
+    margin-bottom: 12px !important;
+  }
+
+  .application-area form.search-box .select-form .nice-select,
+  .application-area form.search-box .input-form input,
+  .application-area form.search-box .search-form a {
+    height: 50px !important;
+    border-radius: 0 !important;
+  }
+
+  /* -------- TEAM SECTION -------- */
+  .team-area {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+
+  .team-area .single-team {
+    margin-bottom: 15px !important;
+  }
+
+  .team-area .single-team .team-caption h3 a {
+    font-size: 16px !important;
+  }
+
+  .team-area .single-team .team-caption p {
+    font-size: 13px !important;
+  }
+
+  /* -------- TESTIMONIAL SECTION -------- */
+  .testimonial-area .testimonial-caption .testimonial-top-cap img {
+    margin-bottom: 20px !important;
+    width: 60px !important;
+  }
+
+  .testimonial-area .testimonial-caption .testimonial-top-cap p {
+    font-size: 16px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .testimonial-area .testimonial-caption .testimonial-founder {
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+
+  .testimonial-area .testimonial-caption .testimonial-founder .founder-img {
+    margin-bottom: 10px !important;
+  }
+
+  .testimonial-area .testimonial-caption .testimonial-founder .founder-text {
+    margin-left: 0 !important;
+  }
+
+  /* -------- BLOG SECTION -------- */
+  .home-blog-area {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+
+  .home-blog-area .single-blogs {
+    margin-bottom: 20px !important;
+  }
+
+  .home-blog-area .single-blogs .blog-captions {
+    padding: 15px 0 !important;
+  }
+
+  .home-blog-area .single-blogs .blog-captions h2 {
+    font-size: 16px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .home-blog-area .single-blogs .blog-captions span {
+    font-size: 12px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .home-blog-area .single-blogs .blog-captions p {
+    font-size: 12px !important;
+  }
+
+  /* -------- FOOTER -------- */
+  .footer-area {
+    padding: 0 !important;
+  }
+
+  .footer-area .footer-top {
+    padding: 30px 10px !important;
+  }
+
+  .footer-area .footer-logo {
+    margin-bottom: 15px !important;
+  }
+
+  .footer-area .footer-pera p {
+    padding-right: 0 !important;
+    margin-bottom: 15px !important;
+    font-size: 13px !important;
+  }
+
+  .footer-area .footer-tittle {
+    margin-bottom: 15px !important;
+  }
+
+  .footer-area .footer-tittle h4 {
+    font-size: 16px !important;
+    margin-bottom: 15px !important;
+  }
+
+  .footer-area .footer-tittle ul li {
+    margin-bottom: 8px !important;
+  }
+
+  .footer-area .footer-tittle ul li a {
+    font-size: 13px !important;
+  }
+
+  .footer-area .footer-bottom {
+    padding: 15px 10px !important;
+  }
+
+  .footer-area .footer-bottom .footer-copy-right p {
+    font-size: 12px !important;
+    margin-bottom: 10px !important;
+  }
+
+  /* -------- BUTTONS -------- */
+  .btn {
+    font-size: 12px !important;
+    padding: 10px 15px !important;
+  }
+
+  .header-btn {
+    font-size: 11px !important;
+    padding: 8px 12px !important;
+  }
+
+  /* -------- GENERAL SPACING FIXES -------- */
+  p {
+    margin-bottom: 10px !important;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 10px !important;
+  }
+
+  .mb-50 {
+    margin-bottom: 25px !important;
+  }
+
+  .mb-30 {
+    margin-bottom: 15px !important;
+  }
+
+  .mb-20 {
+    margin-bottom: 10px !important;
+  }
+
+  .pt-150, .pb-150 {
+    padding: 30px 0 !important;
+  }
+
+  .pt-150 {
+    padding-top: 30px !important;
+  }
+
+  .pb-150 {
+    padding-bottom: 30px !important;
+  }
+
+  .pb-140 {
+    padding-bottom: 30px !important;
+  }
+
+  /* -------- ROW & COL FIXES -------- */
+  .row {
+    margin-left: -5px !important;
+    margin-right: -5px !important;
+  }
+
+  [class*='col-'] {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+
+  /* -------- UTILITY FIX -------- */
+  .d-flex {
+    flex-wrap: wrap !important;
+  }
+
+  /* -------- PREVENT SCROLLBAR ISSUES -------- */
+  .slider-active {
+    overflow: hidden !important;
+  }
+}
+
+/* ========================================
+   HERO IMAGE MOBILE OVERRIDE
+   The template hides the hero image on small screens; override it
+   so the image displays and stacks above/below caption.
+   ======================================== */
+@media (max-width: 575px) {
+  .slider-area .single-slider .slider-cap-wrapper .hero__img {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 0 16px 0 !important;
+    order: -1; /* Put image above caption if needed */
+  }
+
+  .slider-area .single-slider .slider-cap-wrapper .hero__img img {
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    object-fit: cover !important;
+  }
+
+  /* Ensure caption doesn't hide image space */
+  .slider-area .single-slider .slider-cap-wrapper .hero__caption {
+    width: 100% !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}

@@ -1,0 +1,62 @@
+/* Hero Button Fix - Override with hero-redesign.css */
+
+/* Hero Image Redesign */
+.hero__img {
+    position: relative;
+    z-index: 1;
+    animation: fadeInRight 1s ease-out;
+}
+
+.hero__img img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease;
+}
+
+.hero__img:hover img {
+    transform: scale(1.05);
+}
+
+/* Hero Section Overlay for Better Text Readability */
+.slider-area::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(47, 133, 90, 0.7) 0%, rgba(56, 161, 105, 0.6) 100%);
+    z-index: 1;
+}
+
+.slider-area .container {
+    position: relative;
+    z-index: 2;
+}
+
+/* Animation */
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .hero__img {
+        margin-top: 30px;
+    }
+    
+    .hero__img img {
+        max-width: 100%;
+    }
+}
+

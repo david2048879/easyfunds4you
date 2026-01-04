@@ -1,0 +1,229 @@
+/* Page Hero Background Images */
+
+/* About Us Page Hero */
+.about-us-hero.hero-area2 {
+    background-image: url('../img/Hero.png') !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    position: relative !important;
+}
+
+.about-us-hero.hero-area2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(47, 133, 90, 0.85) 0%, rgba(56, 161, 105, 0.75) 100%);
+    z-index: 1;
+}
+
+.about-us-hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+.about-us-hero .hero-cap h2 {
+    color: #FFFFFF !important;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Services Page Hero */
+.services-hero.hero-area2 {
+    background-image: url('../img/loan.png') !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    position: relative !important;
+}
+
+.services-hero.hero-area2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(47, 133, 90, 0.85) 0%, rgba(56, 161, 105, 0.75) 100%);
+    z-index: 1;
+}
+
+.services-hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+.services-hero .hero-cap h2 {
+    color: #FFFFFF !important;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Contact Us Page Hero */
+.contact-hero.hero-area2 {
+    background-image: url('../img/money.webp') !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    position: relative !important;
+}
+
+.contact-hero.hero-area2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(47, 133, 90, 0.85) 0%, rgba(56, 161, 105, 0.75) 100%);
+    z-index: 1;
+}
+
+.contact-hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+.contact-hero .hero-cap h2 {
+    color: #FFFFFF !important;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Apply Page Hero */
+.apply-hero.hero-area2 {
+    background-image: url('../img/loan.png') !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    position: relative !important;
+    min-height: 120px !important;
+    padding: 15px 0 !important;
+}
+
+.apply-hero.hero-area2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(47, 133, 90, 0.85) 0%, rgba(56, 161, 105, 0.75) 100%);
+    z-index: 1;
+}
+
+.apply-hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+.apply-hero .hero-cap h2 {
+    color: #FFFFFF !important;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    font-size: 24px !important;
+    margin-bottom: 0 !important;
+}
+
+.apply-hero .hero-cap {
+    padding-top: 0 !important;
+}
+
+/* News & Updates Page Hero */
+.news-hero.hero-area2 {
+    background-image: url('../img/money.webp') !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    position: relative !important;
+    min-height: 120px !important;
+    padding: 15px 0 !important;
+}
+
+.news-hero.hero-area2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(47, 133, 90, 0.85) 0%, rgba(56, 161, 105, 0.75) 100%);
+    z-index: 1;
+}
+
+.news-hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+.news-hero .hero-cap h2 {
+    color: #FFFFFF !important;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    font-size: 24px !important;
+    margin-bottom: 0 !important;
+}
+
+.news-hero .hero-cap {
+    padding-top: 0 !important;
+}
+
+/* Responsive for Apply Hero */
+@media (max-width: 991px) {
+    .apply-hero.hero-area2 {
+        min-height: 100px !important;
+        padding: 12px 0 !important;
+    }
+    
+    .apply-hero .hero-cap h2 {
+        font-size: 22px !important;
+    }
+    
+    .news-hero.hero-area2 {
+        min-height: 100px !important;
+        padding: 12px 0 !important;
+    }
+    
+    .news-hero .hero-cap h2 {
+        font-size: 22px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .apply-hero.hero-area2 {
+        min-height: 90px !important;
+        padding: 10px 0 !important;
+    }
+    
+    .apply-hero .hero-cap h2 {
+        font-size: 20px !important;
+    }
+    
+    .news-hero.hero-area2 {
+        min-height: 90px !important;
+        padding: 10px 0 !important;
+    }
+    
+    .news-hero .hero-cap h2 {
+        font-size: 20px !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .apply-hero.hero-area2 {
+        min-height: 80px !important;
+        padding: 8px 0 !important;
+    }
+    
+    .apply-hero .hero-cap h2 {
+        font-size: 18px !important;
+    }
+    
+    .news-hero.hero-area2 {
+        min-height: 80px !important;
+        padding: 8px 0 !important;
+    }
+    
+    .news-hero .hero-cap h2 {
+        font-size: 18px !important;
+    }
+}
+

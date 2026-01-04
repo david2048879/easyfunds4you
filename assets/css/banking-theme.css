@@ -1,0 +1,479 @@
+/* Banking Theme - Inspired by Bank of Kigali Style */
+/* Color Scheme: Professional Blue and White */
+
+:root {
+    --primary-blue: #003366;
+    --secondary-blue: #0052a5;
+    --light-blue: #0073e6;
+    --accent-blue: #0099ff;
+    --dark-blue: #001a33;
+    --green-accent: #00a859;
+    --text-dark: #1a1a1a;
+    --text-gray: #666666;
+    --text-light: #999999;
+    --bg-light: #f5f7fa;
+    --white: #ffffff;
+    --border-color: #e0e0e0;
+}
+
+/* Global Overrides */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-dark);
+    background: var(--white);
+}
+
+/* Header Styles - Banking Style */
+.header-area,
+.header-area.header-transparent {
+    background: var(--white) !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) !important;
+    padding: 15px 0 !important;
+}
+
+.header-area .main-header {
+    background: transparent !important;
+}
+
+.header-area.header-transparent .main-header {
+    background: transparent !important;
+}
+
+.header-area .logo img {
+    max-height: 50px;
+}
+
+.header-area .main-menu nav ul li a {
+    color: var(--primary-blue) !important;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px 20px !important;
+    transition: all 0.3s ease;
+}
+
+.header-area .main-menu nav ul li a:hover,
+.header-area .main-menu nav ul li.active a {
+    color: var(--secondary-blue) !important;
+    background: rgba(0, 82, 165, 0.05);
+    border-radius: 5px;
+}
+
+.header-area .header-btn {
+    background: var(--secondary-blue) !important;
+    color: var(--white) !important;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.header-area .header-btn:hover {
+    background: var(--light-blue) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 82, 165, 0.3);
+}
+
+/* Hero Section - Banking Style */
+.slider-area {
+    background: linear-gradient(135deg, var(--primary-blue) 0%, var(--secondary-blue) 100%) !important;
+    position: relative;
+    padding: 100px 0;
+}
+
+.slider-area::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.slider-area .container {
+    position: relative;
+    z-index: 2;
+}
+
+.hero__caption h1 {
+    color: var(--white) !important;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero__caption p {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero-btn {
+    background: var(--white) !important;
+    color: var(--primary-blue) !important;
+    padding: 15px 40px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    border: 2px solid var(--white);
+}
+
+.hero-btn:hover {
+    background: transparent !important;
+    color: var(--white) !important;
+    border-color: var(--white);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.2);
+}
+
+/* Section Headings */
+.section-tittle span {
+    color: var(--secondary-blue) !important;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.section-tittle h2 {
+    color: var(--primary-blue) !important;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+/* Cards - Banking Style */
+.single-cat,
+.single-service {
+    background: var(--white);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 40px 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+    height: 100%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.single-cat:hover,
+.single-service:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0, 82, 165, 0.15);
+    border-color: var(--secondary-blue);
+}
+
+.single-cat .cat-icon span,
+.single-service .cat-icon span {
+    font-size: 60px;
+    color: var(--secondary-blue);
+    display: block;
+    margin-bottom: 20px;
+}
+
+.single-cat .cat-cap h5 a,
+.single-service .cat-cap h5 a {
+    color: var(--primary-blue) !important;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.single-cat:hover .cat-cap h5 a,
+.single-service:hover .cat-cap h5 a {
+    color: var(--secondary-blue) !important;
+}
+
+.single-cat .cat-cap p,
+.single-service .cat-cap p {
+    color: var(--text-gray);
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.single-cat .btn,
+.single-service .btn {
+    background: var(--secondary-blue);
+    color: var(--white);
+    border: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.single-cat .btn:hover,
+.single-service .btn:hover {
+    background: var(--light-blue);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 82, 165, 0.3);
+}
+
+/* About Section */
+.about-low-area {
+    background: var(--bg-light);
+    padding: 80px 0;
+}
+
+.about-caption h2 {
+    color: var(--primary-blue) !important;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.about-caption p {
+    color: var(--text-gray);
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.about-caption .btn {
+    background: var(--secondary-blue);
+    color: var(--white);
+    padding: 14px 35px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.about-caption .btn:hover {
+    background: var(--light-blue);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 82, 165, 0.3);
+}
+
+/* Services Section */
+.services-area {
+    padding: 80px 0;
+    background: var(--white);
+}
+
+/* Support/Why Choose Section */
+.support-company-area {
+    background: var(--bg-light);
+    padding: 80px 0;
+}
+
+.right-caption h2 {
+    color: var(--primary-blue) !important;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.right-caption p {
+    color: var(--text-gray);
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.select-suport-items .single-items {
+    color: var(--text-dark);
+    font-size: 16px;
+    padding: 15px;
+    background: var(--white);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+}
+
+.select-suport-items .single-items:hover {
+    border-color: var(--secondary-blue);
+    background: rgba(0, 82, 165, 0.05);
+}
+
+/* Application Area */
+.application-area {
+    background: linear-gradient(135deg, var(--primary-blue) 0%, var(--secondary-blue) 100%);
+    padding: 80px 0;
+    position: relative;
+}
+
+.application-area::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.application-area .container {
+    position: relative;
+    z-index: 2;
+}
+
+.application-area .section-tittle span,
+.application-area .section-tittle h2 {
+    color: var(--white) !important;
+}
+
+.search-box {
+    background: var(--white);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.search-box .select-itms select {
+    padding: 15px 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    font-size: 16px;
+    color: var(--text-dark);
+    width: 100%;
+}
+
+.search-box .input-form input {
+    padding: 15px 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.search-box .search-form .btn {
+    background: var(--secondary-blue);
+    color: var(--white);
+    padding: 15px 40px;
+    border-radius: 5px;
+    font-weight: 600;
+    width: 100%;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.search-box .search-form .btn:hover {
+    background: var(--light-blue);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 82, 165, 0.3);
+}
+
+/* Footer - Banking Style */
+.footer-area {
+    background: var(--primary-blue) !important;
+    color: var(--white);
+}
+
+.footer-area::before {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.footer-top {
+    padding: 60px 0 40px;
+}
+
+.footer-tittle h4 {
+    color: var(--white) !important;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.footer-tittle ul li a {
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+
+.footer-tittle ul li a:hover {
+    color: var(--white) !important;
+    padding-left: 10px;
+}
+
+.footer-pera p {
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.footer-contact-info .contact-item {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 15px;
+}
+
+.footer-contact-info .contact-item i {
+    color: var(--accent-blue) !important;
+}
+
+.footer-social a {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer-social a:hover {
+    background: var(--accent-blue);
+    border-color: var(--accent-blue);
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 25px 0;
+}
+
+.footer-copy-right p {
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-size: 14px;
+}
+
+/* Buttons - Banking Style */
+.btn {
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.btn-primary {
+    background: var(--secondary-blue);
+    color: var(--white);
+}
+
+.btn-primary:hover {
+    background: var(--light-blue);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 82, 165, 0.3);
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .hero__caption h1 {
+        font-size: 36px;
+    }
+    
+    .section-tittle h2 {
+        font-size: 28px;
+    }
+    
+    .about-caption h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero__caption h1 {
+        font-size: 28px;
+    }
+    
+    .hero__caption p {
+        font-size: 16px;
+    }
+    
+    .section-tittle h2 {
+        font-size: 24px;
+    }
+}
+

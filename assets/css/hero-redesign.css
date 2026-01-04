@@ -1,0 +1,196 @@
+/* Hero Section Complete Redesign - Fix Button & Improve Content Design */
+
+/* Fix overlay blocking clicks */
+.slider-area::after {
+    pointer-events: none !important;
+}
+
+.slider-area::before {
+    pointer-events: none !important;
+}
+
+/* Ensure container and content are clickable */
+.slider-area .container,
+.slider-area .slider-active,
+.slider-area .single-slider,
+.slider-area .slider-cap-wrapper {
+    pointer-events: auto !important;
+    position: relative;
+    z-index: 10;
+}
+
+/* Hero Caption - Better Content Design */
+.hero__caption {
+    width: 48% !important;
+    padding-left: 8% !important;
+    padding-right: 4% !important;
+    position: relative;
+    z-index: 15 !important;
+}
+
+.hero__caption p {
+    color: rgba(255, 255, 255, 0.95) !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    margin-bottom: 20px !important;
+    letter-spacing: 0.5px;
+    text-transform: none !important;
+}
+
+.hero__caption h1 {
+    color: #FFFFFF !important;
+    font-size: 52px !important;
+    font-weight: 700 !important;
+    line-height: 1.3 !important;
+    margin-bottom: 30px !important;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+    letter-spacing: -0.5px;
+}
+
+/* Hero Button - Make it Clickable and Better Design */
+.hero-btn {
+    background: #FFFFFF !important;
+    color: #2F855A !important;
+    padding: 16px 42px !important;
+    border-radius: 50px !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    display: inline-block !important;
+    text-decoration: none !important;
+    border: 2px solid #FFFFFF !important;
+    position: relative !important;
+    z-index: 20 !important;
+    pointer-events: auto !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
+}
+
+.hero-btn:hover {
+    background: rgba(255, 255, 255, 0.95) !important;
+    color: #276749 !important;
+    transform: translateY(-3px) !important;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.3) !important;
+}
+
+.hero-btn:active {
+    transform: translateY(-1px) !important;
+}
+
+/* Remove any blocking pseudo-elements on button */
+.hero-btn::before,
+.hero-btn::after {
+    pointer-events: none !important;
+}
+
+/* Hero Image - Better Design */
+.hero__img {
+    width: 52% !important;
+    position: relative;
+    z-index: 12;
+    padding-right: 8%;
+}
+
+.hero__img img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+    transition: transform 0.4s ease;
+}
+
+.hero__img:hover img {
+    transform: scale(1.02);
+}
+
+/* Slider Cap Wrapper - Better Layout */
+.slider-cap-wrapper {
+    display: flex !important;
+    align-items: center !important;
+    gap: 40px;
+    position: relative;
+    z-index: 10;
+}
+
+/* Ensure animations don't block clicks */
+[data-animation] {
+    pointer-events: auto !important;
+}
+
+/* Responsive Design */
+@media (max-width: 1199px) {
+    .hero__caption {
+        padding-left: 4% !important;
+    }
+    
+    .hero__caption h1 {
+        font-size: 42px !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .slider-cap-wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .hero__caption {
+        width: 100% !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    
+    .hero__img {
+        width: 100% !important;
+        padding-right: 0 !important;
+        margin-top: 30px;
+    }
+    
+    .hero__caption h1 {
+        font-size: 36px !important;
+    }
+    
+    .hero__caption p {
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero__caption h1 {
+        font-size: 32px !important;
+        margin-bottom: 20px !important;
+    }
+    
+    .hero__caption p {
+        font-size: 15px !important;
+        margin-bottom: 25px !important;
+    }
+    
+    .hero-btn {
+        padding: 14px 35px !important;
+        font-size: 14px !important;
+    }
+}
+
+/* Fix any slick slider overlay issues */
+.slider-active {
+    position: relative;
+    z-index: 1;
+}
+
+.slider-active .slick-list,
+.slider-active .slick-track {
+    pointer-events: auto !important;
+}
+
+
+
+
+
+
+
+
+
+
