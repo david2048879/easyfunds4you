@@ -1,6 +1,6 @@
 <?php
 $page_title = "Easy Funds 4 You - Fast & Reliable Loans in Kigali";
-$page_description = "Easy Funds 4 You offers fast, secure, and reliable collateral-based short-term loans for personal, business, education, asset finance, and emergency needs in Kigali, Rwanda.";
+$page_description = "Easy Funds 4 You offers fast, secure, and reliable collateral-based short-term loans for personal, business, education, and asset finance needs in Kigali, Rwanda.";
 include 'includes/header.php';
 ?>
 
@@ -298,36 +298,6 @@ include 'includes/header.php';
                             <a href="apply.php" class="loan-card-cta">Apply Now</a>
                         </div>
                     </div>
-
-                    <!-- Emergency Loan -->
-                    <div class="loan-card">
-                        <div class="loan-card-icon">
-                            <span class="flaticon-money"></span>
-                        </div>
-                        <div class="loan-card-content">
-                            <h3 class="loan-card-title">
-                                <a href="services.php">Emergency Loan</a>
-                            </h3>
-                            <p class="loan-card-description">
-                                Provides rapid relief during unexpected financial crises. Get urgent funds when it matters.
-                            </p>
-                            <ul class="loan-benefits">
-                                <li>
-                                    <span class="benefit-icon"><i class="fas fa-check"></i></span>
-                                    <span>24-Hour Processing</span>
-                                </li>
-                                <li>
-                                    <span class="benefit-icon"><i class="fas fa-check"></i></span>
-                                    <span>Urgent Financial Support</span>
-                                </li>
-                                <li>
-                                    <span class="benefit-icon"><i class="fas fa-check"></i></span>
-                                    <span>Quick Cash Disbursement</span>
-                                </li>
-                            </ul>
-                            <a href="apply.php" class="loan-card-cta">Apply Now</a>
-                        </div>
-                    </div>
                 </div>
 
                 <!-- CTA Banner -->
@@ -504,7 +474,7 @@ include 'includes/header.php';
                                     <i class="fas fa-chevron-down"></i>
                                 </div>
                                 <div id="faq4" class="faq-answer collapse" data-parent="#faqAccordionLeft">
-                                    <p>We offer personal loans, emergency loans, business loans, education loans, and asset purchase loans.</p>
+                                    <p>We offer personal loans, business loans, education loans, and asset purchase loans.</p>
                                 </div>
                             </div>
 

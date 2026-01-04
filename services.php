@@ -1,6 +1,6 @@
 <?php
 $page_title = "Our Services - Easy Funds 4 You";
-$page_description = "Explore our comprehensive loan services: Personal Loans, Business Loans, Asset Finance, Education Loans, and Emergency Loans. Fast and reliable financing solutions in Kigali, Rwanda.";
+$page_description = "Explore our comprehensive loan services: Personal Loans, Business Loans, Asset Finance, and Education Loans. Fast and reliable financing solutions in Kigali, Rwanda.";
 include 'includes/header.php';
 
 // Loan services data
@@ -32,14 +32,8 @@ $loan_services = [
         'short_desc' => 'Makes school fees manageable with supportive education financing.',
         'description' => 'We do provide education loans to assist clients in paying school fees, tuition, and other educational costs for themselves or their dependents. This ensures uninterrupted learning throughout the academic year.',
         'cta' => 'Invest in education—apply with us.'
-    ],
-    [
-        'title' => 'Emergency Loan',
-        'icon' => 'flaticon-money',
-        'short_desc' => 'Provides rapid relief during unexpected financial crises.',
-        'description' => 'We do provide emergency loans designed for urgent situations such as medical needs, sudden family issues, or unexpected financial challenges. These loans are processed quickly to provide immediate support when it is needed most.',
-        'cta' => 'Get urgent funds when it matters.'
     ]
+   
 ];
 ?>
 

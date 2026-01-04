@@ -1,6 +1,6 @@
 <?php
 $page_title = "Apply for Loan - Easy Funds 4 You";
-$page_description = "Apply for a loan with Easy Funds 4 You. Fast and easy application process for personal, business, asset finance, education, and emergency loans.";
+$page_description = "Apply for a loan with Easy Funds 4 You. Fast and easy application process for personal, business, asset finance, and education loans.";
 
 session_start();
 
@@ -266,10 +266,6 @@ include 'includes/header.php';
                                                     <div class="checkbox-option">
                                                         <input type="checkbox" id="loan_business" name="loan_type[]" value="business_expansion">
                                                         <label for="loan_business">Business Expansion</label>
-                                                    </div>
-                                                    <div class="checkbox-option">
-                                                        <input type="checkbox" id="loan_emergency" name="loan_type[]" value="emergency">
-                                                        <label for="loan_emergency">Emergency / Unexpected Expense</label>
                                                     </div>
                                                     <div class="checkbox-option">
                                                         <input type="checkbox" id="loan_education" name="loan_type[]" value="education">

@@ -160,7 +160,7 @@ include 'includes/header.php';
                             <h4 class="info-title">
                                 <a href="tel:+250796693784">+250 796 693 784</a>
                             </h4>
-                            <p class="info-text">Mon to Fri 9am to 6pm<br>Sat 9am to 1pm</p>
+                            <p class="info-text">Mon to Fri 8am to 6pm<br>Sat 9am to 1pm</p>
                         </div>
                         
                         <div class="contact-info-modern">
@@ -170,17 +170,27 @@ include 'includes/header.php';
                             <h4 class="info-title">
                                 <a href="mailto:info@easyfunds4you.rw">info@easyfunds4you.rw</a>
                             </h4>
-                            <p class="info-text">Send us your query anytime!<br>We'll respond within 24 hours</p>
+                            <p class="info-text">Send us your query anytime!<br>Our team will reply within a day</p>
                         </div>
                         
                         <!-- Map Section -->
-                        <div class="contact-map-modern">
-                            <iframe 
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.5339658920154!2d30.0964744!3d-1.9569445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca6b8b8b8b8b8%3A0x8b8b8b8b8b8b8b8b!2sKicukiro%20Center!5e0!3m2!1sen!2srw!4v1234567890123!5m2!1sen!2srw" 
-                                allowfullscreen="" 
-                                loading="lazy" 
-                                referrerpolicy="no-referrer-when-downgrade">
-                            </iframe>
+                        <div class="contact-map-modern" style="margin-top: 30px;">
+                            <div style="width: 100%; height: 300px; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1); background: #f5f5f5; position: relative;">
+                                <iframe 
+                                    src="https://www.google.com/maps?q=Kicukiro+Center,+Opposite+to+IPRC-Kigali,+Kigali,+Rwanda&output=embed" 
+                                    width="100%" 
+                                    height="300" 
+                                    style="border:0;" 
+                                    allowfullscreen="" 
+                                    loading="lazy" 
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                            <p style="margin-top: 10px; font-size: 12px; color: #666; text-align: center;">
+                                <a href="https://maps.app.goo.gl/JFP1NqL9mViHYWXE7" target="_blank" style="color: #2F855A; text-decoration: none;">
+                                    <i class="fas fa-external-link-alt"></i> Open in Google Maps
+                                </a>
+                            </p>
                         </div>
                     </div>
                 </div>

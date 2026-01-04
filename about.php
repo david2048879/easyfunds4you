@@ -110,6 +110,88 @@ include 'includes/header.php';
             </div>
         </section>
         <!-- Core Values Section End -->
+
+        <!-- Meet Our Team Section -->
+        <section class="team-section" style="padding: 100px 0; background: #f8f9fa;">
+            <style>
+                .team-card:hover {
+                    transform: translateY(-10px);
+                    box-shadow: 0 8px 30px rgba(47, 133, 90, 0.15) !important;
+                }
+                .team-card .team-social a:hover {
+                    color: #48bb78 !important;
+                    transform: scale(1.2);
+                }
+                .team-card .team-image-wrapper {
+                    transition: transform 0.3s ease;
+                }
+                .team-card:hover .team-image-wrapper {
+                    transform: scale(1.05);
+                }
+            </style>
+            <div class="container">
+                <div class="section-header-modern text-center" style="margin-bottom: 60px;">
+                    <div class="section-label" style="color: #2F855A; font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px;">Our Team</div>
+                    <h2 style="color: #2c3e50; margin-bottom: 20px; font-size: 42px; font-weight: 700;">Meet Our Team</h2>
+                    <p style="color: #6c757d; font-size: 16px; max-width: 600px; margin: 0 auto;">Meet the dedicated professionals who are committed to helping you achieve your financial goals</p>
+                </div>
+                
+                <div class="row justify-content-center">
+                    <!-- Team Member 1 -->
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="team-card" style="background: white; border-radius: 16px; padding: 30px; text-align: center; box-shadow: 0 4px 20px rgba(0,0,0,0.08); transition: transform 0.3s ease, box-shadow 0.3s ease; height: 100%;">
+                            <div class="team-image-wrapper" style="width: 180px; height: 180px; margin: 0 auto 25px; border-radius: 50%; overflow: hidden; border: 5px solid #2F855A; box-shadow: 0 4px 15px rgba(47, 133, 90, 0.2);">
+                                <img src="assets/img/logo/EasyFunds4You_logo.png" alt="Team Member" style="width: 100%; height: 100%; object-fit: cover; background: linear-gradient(135deg, #2F855A 0%, #48bb78 100%);">
+                            </div>
+                            <h4 style="color: #2c3e50; font-size: 22px; font-weight: 600; margin-bottom: 8px;">John</h4>
+                            <p class="team-position" style="color: #2F855A; font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 15px;">Chief Executive Officer</p>
+                            <p class="team-description" style="color: #6c757d; font-size: 14px; line-height: 1.6; margin-bottom: 20px;">With over 15 years of experience in financial services, John leads our team with a vision for innovative and customer-centric lending solutions.</p>
+                            <div class="team-social" style="display: flex; justify-content: center; gap: 15px;">
+                                <a href="#" style="color: #2F855A; font-size: 18px; transition: color 0.3s ease;"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" style="color: #2F855A; font-size: 18px; transition: color 0.3s ease;"><i class="fab fa-twitter"></i></a>
+                                <a href="#" style="color: #2F855A; font-size: 18px; transition: color 0.3s ease;"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Team Member 2 -->
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="team-card" style="background: white; border-radius: 16px; padding: 30px; text-align: center; box-shadow: 0 4px 20px rgba(0,0,0,0.08); transition: transform 0.3s ease, box-shadow 0.3s ease; height: 100%;">
+                            <div class="team-image-wrapper" style="width: 180px; height: 180px; margin: 0 auto 25px; border-radius: 50%; overflow: hidden; border: 5px solid #2F855A; box-shadow: 0 4px 15px rgba(47, 133, 90, 0.2);">
+                                <img src="assets/img/logo/EasyFunds4You_logo.png" alt="Team Member" style="width: 100%; height: 100%; object-fit: cover; background: linear-gradient(135deg, #2F855A 0%, #48bb78 100%);">
+                            </div>
+                            <h4 style="color: #2c3e50; font-size: 22px; font-weight: 600; margin-bottom: 8px;">Jane Smith</h4>
+                            <p class="team-position" style="color: #2F855A; font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 15px;">Head of Operations</p>
+                            <p class="team-description" style="color: #6c757d; font-size: 14px; line-height: 1.6; margin-bottom: 20px;">Jane ensures our operations run smoothly and efficiently, overseeing loan processing and customer service with dedication and expertise.</p>
+                            <div class="team-social" style="display: flex; justify-content: center; gap: 15px;">
+                                <a href="#" style="color: #2F855A; font-size: 18px; transition: color 0.3s ease;"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" style="color: #2F855A; font-size: 18px; transition: color 0.3s ease;"><i class="fab fa-twitter"></i></a>
+                                <a href="#" style="color: #2F855A; font-size: 18px; transition: color 0.3s ease;"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Team Member 3 -->
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="team-card" style="background: white; border-radius: 16px; padding: 30px; text-align: center; box-shadow: 0 4px 20px rgba(0,0,0,0.08); transition: transform 0.3s ease, box-shadow 0.3s ease; height: 100%;">
+                            <div class="team-image-wrapper" style="width: 180px; height: 180px; margin: 0 auto 25px; border-radius: 50%; overflow: hidden; border: 5px solid #2F855A; box-shadow: 0 4px 15px rgba(47, 133, 90, 0.2);">
+                                <img src="assets/img/logo/EasyFunds4You_logo.png" alt="Team Member" style="width: 100%; height: 100%; object-fit: cover; background: linear-gradient(135deg, #2F855A 0%, #48bb78 100%);">
+                            </div>
+                            <h4 style="color: #2c3e50; font-size: 22px; font-weight: 600; margin-bottom: 8px;">John IRADUKUNDA</h4>
+                            <p class="team-position" style="color: #2F855A; font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 15px;">Senior Loan Officer</p>
+                            <p class="team-description" style="color: #6c757d; font-size: 14px; line-height: 1.6; margin-bottom: 20px;">Michael specializes in assessing loan applications and helping clients find the best financial solutions tailored to their unique needs.</p>
+                            <div class="team-social" style="display: flex; justify-content: center; gap: 15px;">
+                                <a href="#" style="color: #2F855A; font-size: 18px; transition: color 0.3s ease;"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" style="color: #2F855A; font-size: 18px; transition: color 0.3s ease;"><i class="fab fa-twitter"></i></a>
+                                <a href="#" style="color: #2F855A; font-size: 18px; transition: color 0.3s ease;"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Meet Our Team Section End -->
+
         <!-- Application Area Start -->
         <div class="application-area pt-150 pb-140" data-background="assets/img/gallery/section_bg03.jpg">
             <div class="container">
